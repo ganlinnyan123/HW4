@@ -120,15 +120,53 @@ footer p{
     color: cornflowerblue;
     text-decoration: none;
 }
+.text2 a:hover{
+    text-decoration: underline;
+}
 .last{
+    display: flex;
+    justify-content: space-between;
     margin: 1% 0 0 0;
 }
-.last label:nth-child(1){
+.last span:nth-child(1){
+    float: left;
     margin: 0 3% 0 0;
 }
-.last label{
-    padding: 1%;
-}
-.last label:nth-last-child(1){
+.last ul{
     
+    display: flex;
+    flex-direction: row;
+    list-style: none;
 }
+.last ul a{
+    color: #585858;
+    text-decoration: none;
+}
+.last ul a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.last span:nth-last-child(1){
+    color: #585858;
+    text-decoration: none;
+    float: right;
+}
+.last li::after {
+    margin-left: 5px;
+    content: " ";
+    border-right: 1px solid #a8a8a8;
+    margin-right: 10px;
+}
+.last li:last-child::after{
+    border-right: 0;
+}
+.right input{
+    width: 20px;
+    height: 18px;
+}
+.right span:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
