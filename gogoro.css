@@ -97,14 +97,14 @@ footer a{
     margin: 0 0 40px 0;
 }
 .f1 input:nth-child(1){
-    width: 30%;
+    width: 400px;
     height: 40px;
     border-radius: 20px;
 }
 .f1 input:last-child{
     margin-left: -70px;
     margin-top: 2px;
-    width: 7%;
+    width: 63px;
     height: 38px;
     border-radius: 20px;
     border: none;
