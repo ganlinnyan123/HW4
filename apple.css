@@ -71,8 +71,8 @@ footer p{
 }
 .list{
     margin: 1% 0;
-    
-    
+    display: flex;
+    justify-content: space-between;
     line-height: 25px;
 }
 .list ul{
